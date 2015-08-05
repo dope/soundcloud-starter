@@ -1,0 +1,21 @@
+{
+  "name": "soundcloud-starter",
+  "version": "0.0.1",
+  "authors": [
+    "Joe Richardson <hello.joer@gmail.com>"
+  ],
+  "description": "starting point for display soundcloud info",
+  "main": "soundcloud.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "mustache.js": "~2.1.3"
+  }
+}

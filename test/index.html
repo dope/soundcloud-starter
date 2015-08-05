@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+
+    <script id="template" type="text/template">
+        {{#item}}
+            <h1><a target="_blank" href="{{permalink}}">{{title}}</a></h1>
+            <img src="{{artwork}}" />
+        {{/item}}
+    </script>
+
+    <div id="container">
+
+    </div>
+
+
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/mustache.js/mustache.min.js"></script>
+    <script src="../soundcloud.js"></script>
+</body>
+</html>
